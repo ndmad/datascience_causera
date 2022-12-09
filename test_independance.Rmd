@@ -1,0 +1,23 @@
+---
+title: "datasciencecausera"
+author: "Mamadou NDIAYE"
+date: "2022-12-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Le projet constite à tester la dépendance de deux varibale ici: les diplomés et les cadre
+```{r}
+library(questionr)
+library(ggplot2)
+```
+
+```{r}
+data("hdv2003")
+d <- (data = hdv2003)
+names(d)
+```
+
